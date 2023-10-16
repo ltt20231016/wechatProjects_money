@@ -1,0 +1,3 @@
+<!--pages/mine/mine.wxml-->
+
+<van-button type="default" >登录</van-button>

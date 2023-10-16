@@ -1,0 +1,9 @@
+<!--pages/custom-tab-bar/index.wxml-->
+<text>pages/custom-tab-bar/index.wxml</text>
+
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="home-o">明细</van-tabbar-item>
+  <van-tabbar-item icon="search">查询</van-tabbar-item>
+  <!-- <van-tabbar-item icon="friends-o"></van-tabbar-item> -->
+  <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
+</van-tabbar>
