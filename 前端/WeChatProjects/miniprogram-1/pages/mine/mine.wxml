@@ -1,3 +1,7 @@
 <!--pages/mine/mine.wxml-->
 
-<van-button type="default" >登录</van-button>
+<van-button type="default" bind:tap="login" >登录</van-button>
+
+<van-button type="default" >注册</van-button>
+
+<van-button type="default" >修改密码</van-button>
